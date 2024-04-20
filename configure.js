@@ -39,7 +39,7 @@ let githubUsername, githubRepo, botUsername;
     githubRepo = params[2];
   } catch (e) {}
 
-  const accessToken = await question("Enter your bot access token: ");
+  const accessToken = "6538873269:AAEZlOhY1ND_AUaaZfL_DAwmQVnuHgpFd1w";
   if (!accessToken?.length > 0) exitError("Token is required");
 
   const githubUsernameQ = await question(
