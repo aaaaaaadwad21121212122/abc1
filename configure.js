@@ -42,17 +42,11 @@ let githubUsername, githubRepo, botUsername;
   const accessToken = "6538873269:AAEZlOhY1ND_AUaaZfL_DAwmQVnuHgpFd1w";
   if (!accessToken?.length > 0) exitError("Token is required");
 
-  const githubUsernameQ = await question(
-    `Enter your github username${
-      githubUsername ? ` (${githubUsername})` : ``
-    }: `
-  );
+  const githubUsernameQ = "aaaaaaadwad21121212122";
   githubUsername = githubUsernameQ || githubUsername;
   if (!githubUsername?.length > 0) exitError("Github username is required");
 
-  const githubRepoQ = await question(
-    `Enter your forked repo name${githubRepo ? ` (${githubRepo})` : ``}: `
-  );
+  const githubRepoQ = "abc1";
   githubRepo = githubRepoQ || githubRepo;
   if (!githubRepo?.length > 0) exitError("Repo name is required");
 
