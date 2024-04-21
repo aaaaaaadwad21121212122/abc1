@@ -17,7 +17,7 @@ const StyledApp = styled.div`
     background-color: #222;
     color: white;
   }
-  min-height: 100vh;
+  min-height: 15vh;
   padding: 20px 20px;
 `;
 
@@ -37,9 +37,6 @@ function App() {
             <TonConnectButton />
           </FlexBoxRow>
           <TransferTon />
-          <div>
-          <img src="/pchela.jpg" alt="horse"/>
-          </div>
         </FlexBoxCol>
       </AppContainer>
     </StyledApp>
