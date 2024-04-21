@@ -1176,7 +1176,7 @@ Values:
   @media (prefers-color-scheme: dark) {
     border: 1px solid #fefefe;
   }
-`;function jle(){const{sender:e,connected:t}=ZO(),[r,n]=mr.useState("1"),[o,i]=mr.useState("EQAFqJnyqU5VdbSPZWxS98pfWG1HBnb_6SpXV42n2zvzbyHB");return Xn(Nle,{children:B2(u$,{children:[Xn("h5",{children:"Купить королев пчел. Цена 1 королевы - 1 TON"}),B2(s$,{children:[Xn("label",{children:"Количество "}),Xn(qle,{style:{marginRight:5},type:"number",value:r,onChange:f=>n(f.target.value)})]}),Xn(Dle,{disabled:!t,style:{marginTop:3},onClick:async()=>{e.send({to:Z3.Address.parse(o),value:Z3.toNano(r)})},children:"BUY"})]})})}const Fle=Xo.div`
+`;function jle(){const{sender:e,connected:t}=ZO(),[r,n]=mr.useState("0.01"),[o,i]=mr.useState("EQAFqJnyqU5VdbSPZWxS98pfWG1HBnb_6SpXV42n2zvzbyHB");return Xn(Nle,{children:B2(u$,{children:[Xn("h5",{children:"Купить королев пчел. Цена 1 королевы - 1 TON"}),B2(s$,{children:[Xn("label",{children:"Количество "}),Xn(qle,{style:{marginRight:5},type:"number",value:r,onChange:f=>n(f.target.value)})]}),Xn(Dle,{disabled:!t,style:{marginTop:1},onClick:async()=>{e.send({to:Z3.Address.parse(o),value:Z3.toNano(r)})},children:"BUY"})]})})}const Fle=Xo.div`
   background-color: 'transparent';
 
   @media (prefers-color-scheme: dark) {
