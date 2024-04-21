@@ -37,6 +37,9 @@ function App() {
             <TonConnectButton />
           </FlexBoxRow>
           <TransferTon />
+          <div>
+          <img src="/bee.gif"/>
+          </div>
         </FlexBoxCol>
       </AppContainer>
     </StyledApp>
