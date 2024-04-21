@@ -1184,9 +1184,9 @@ Values:
     background-color: #222;
     color: white;
   }
-  min-height: 100vh;
+  min-height: 10vh;
   padding: 20px 20px;
 `,zle=Xo.div`
-  max-width: 900px;
+  max-width: 90px;
   margin: 0 auto;
 `;function Wle(){return ZO(),Xn(Fle,{children:Xn(zle,{children:B2(u$,{children:[Xn(s$,{children:Xn(AV,{})}),Xn(jle,{})]})})})}const Hle="https://raw.githubusercontent.com/ton-community/tutorials/main/03-client/test/public/tonconnect-manifest.json",Kle=new Y$({defaultOptions:{queries:{refetchOnWindowFocus:!1}}});V3.createRoot(document.getElementById("root")).render(Xn(_V,{manifestUrl:Hle,children:Xn(nN,{client:Kle,children:Xn(Wle,{})})}));
