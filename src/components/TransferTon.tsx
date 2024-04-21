@@ -16,8 +16,8 @@ export function TransferTon() {
     <Card>
       <FlexBoxCol>
         <h3>Купить королев пчел</h3>
+        <h4>Цена 1 королевы - 1 TON </h4>
         <FlexBoxRow>
-          <label>Цена 1 королевы - 1 TON </label>
           <label>Количество </label>
           <Input
             style={{ marginRight: 8 }}
