@@ -38,7 +38,7 @@ function App() {
           </FlexBoxRow>
           <TransferTon />
           <div>
-          <img src="/bee.gif"/>
+          <img src="/bee.gif" alt="horse"/>
           </div>
         </FlexBoxCol>
       </AppContainer>
