@@ -22,7 +22,7 @@ const StyledApp = styled.div`
 `;
 
 const AppContainer = styled.div`
-  max-width: 90px;
+  max-width: 400px;
   margin: 0 auto;
 `;
 
