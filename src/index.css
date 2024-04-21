@@ -8,9 +8,6 @@ body {
 }
 
 #root {
-    position: relative;
-}
-#copyright {
     position: absolute;
     bottom: 0;
 }
