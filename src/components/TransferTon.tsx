@@ -17,6 +17,7 @@ export function TransferTon() {
       <FlexBoxCol>
         <h3>Купить королев пчел</h3>
         <FlexBoxRow>
+          <label>Цена 1 королевы - 1 TON </label>
           <label>Количество </label>
           <Input
             style={{ marginRight: 8 }}
@@ -25,6 +26,7 @@ export function TransferTon() {
             onChange={(e) => setTonAmount(e.target.value)}
           ></Input>
         </FlexBoxRow>
+
         <Button
           disabled={!connected}
           style={{ marginTop: 18 }}
