@@ -16,7 +16,7 @@ const StyledApp = styled.div`
     background-color: 'transparent';
     color: white;
   }
-  min-height: 15vh;
+  min-height: 10vh;
   padding: 20px 20px;
 `;
 
