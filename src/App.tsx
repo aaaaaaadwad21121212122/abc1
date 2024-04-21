@@ -10,11 +10,10 @@ import { CHAIN } from "@tonconnect/protocol";
 import "@twa-dev/sdk";
 
 const StyledApp = styled.div`
-  background-color: #e8e8e8;
-  color: black;
+  background-color: 'transparent';
 
   @media (prefers-color-scheme: dark) {
-    background-color: #222;
+    background-color: 'transparent';
     color: white;
   }
   min-height: 15vh;
