@@ -17,12 +17,12 @@ const StyledApp = styled.div`
     background-color: #222;
     color: white;
   }
-  min-height: 100vh;
+  min-height: 10vh;
   padding: 20px 20px;
 `;
 
 const AppContainer = styled.div`
-  max-width: 900px;
+  max-width: 90px;
   margin: 0 auto;
 `;
 
