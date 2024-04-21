@@ -6,3 +6,11 @@ body {
     height:100%;
     width:100%;
 }
+
+#root {
+    position: relative;
+}
+#copyright {
+    position: absolute;
+    bottom: 0;
+}
