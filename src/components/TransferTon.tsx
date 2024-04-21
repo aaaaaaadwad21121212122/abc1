@@ -7,30 +7,22 @@ import { Card, FlexBoxCol, FlexBoxRow, Button, Input } from "./styled/styled";
 export function TransferTon() {
   const { sender, connected } = useTonConnect();
 
-  const [tonAmount, setTonAmount] = useState("0.01");
+  const [tonAmount, setTonAmount] = useState("1");
   const [tonRecipient, setTonRecipient] = useState(
-    "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c"
+    "EQAFqJnyqU5VdbSPZWxS98pfWG1HBnb_6SpXV42n2zvzbyHB"
   );
 
   return (
     <Card>
       <FlexBoxCol>
-        <h3>Transfer TON</h3>
+        <h3>Купить королев пчел</h3>
         <FlexBoxRow>
-          <label>Amount </label>
+          <label>Количество </label>
           <Input
             style={{ marginRight: 8 }}
             type="number"
             value={tonAmount}
             onChange={(e) => setTonAmount(e.target.value)}
-          ></Input>
-        </FlexBoxRow>
-        <FlexBoxRow>
-          <label>To </label>
-          <Input
-            style={{ marginRight: 8 }}
-            value={tonRecipient}
-            onChange={(e) => setTonRecipient(e.target.value)}
           ></Input>
         </FlexBoxRow>
         <Button
@@ -43,7 +35,7 @@ export function TransferTon() {
             });
           }}
         >
-          Transfer
+          BUY
         </Button>
       </FlexBoxCol>
     </Card>
