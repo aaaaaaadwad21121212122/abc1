@@ -1184,7 +1184,7 @@ Values:
     background-color: #222;
     color: white;
   }
-  min-height: 20vh;
+  min-height: 100vh;
   padding: 20px 20px;
 `,zle=Xo.div`
   max-width: 700px;
